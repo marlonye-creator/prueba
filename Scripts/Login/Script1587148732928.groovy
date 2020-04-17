@@ -15,11 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://www.youtube.com/')
-
-WebUI.delay(0)
+WebUI.openBrowser('http://dbankdemo.com/login')
 
 WebUI.maximizeWindow()
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('login/nombreUsuario'), 'andres@gmail.com')
+
+WebUI.setText(findTestObject('login/Clave'), 'Andres2012')
+
+WebUI.click(findTestObject('login/botonIngreso'))
 

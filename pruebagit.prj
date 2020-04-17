@@ -6,6 +6,7 @@
    <UUID>87a05580-cf3a-4c23-80a8-16085ba0ce88</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\pruebagit\pruebagit.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

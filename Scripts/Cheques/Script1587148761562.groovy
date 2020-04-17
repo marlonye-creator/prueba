@@ -15,11 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://www.youtube.com/')
+WebUI.click(findTestObject('Cheques/menuCheque'))
 
-WebUI.delay(0)
+WebUI.click(findTestObject('Cheques/nuevoCheque'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Cheques/botonTipoCuenta'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Cheques/botonTipoIngreso'))
+
+WebUI.setText(findTestObject('Cheques/nombreConsignante'), 'Julian valero')
+
+WebUI.setText(findTestObject('Cheques/montoConsignar'), '254222')
+
+WebUI.click(findTestObject('Cheques/botonGeneraCheque'))
 

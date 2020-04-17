@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>rodando</name>
+   <name>Cheques</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f1078400-3d8f-4a6e-97da-a941cd1b2db8</testCaseGuid>
+   <testCaseGuid>17770992-48a5-4364-91c9-ed336352fa08</testCaseGuid>
 </TestCaseEntity>
