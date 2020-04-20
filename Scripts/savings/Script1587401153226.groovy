@@ -19,3 +19,5 @@ WebUI.click(findTestObject('Savings/menuSavings'))
 
 WebUI.click(findTestObject('Savings/nuevoSavings'))
 
+WebUI.click(findTestObject('Savings/crearSaving'))
+
