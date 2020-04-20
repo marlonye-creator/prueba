@@ -19,7 +19,7 @@ WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('Savings/Savings'))
 
-WebUI.click(findTestObject('Savings/newSavings'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Savings/selectCheckingSavings'))
 
@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Savings/ingresoNombre'), 'Gio')
 
 WebUI.setText(findTestObject('Savings/ingreseDepositoInicial'), '15000')
 
-WebUI.click(findTestObject('Savings/botonNewSavings'))
+WebUI.click(findTestObject('Savings/botonSubmit'))
 
 WebUI.delay(3)
 
