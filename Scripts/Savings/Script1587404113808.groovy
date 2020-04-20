@@ -15,7 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject(null))
+WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('Savings/Savings'))
+
+WebUI.click(findTestObject('Savings/newSavings'))
+
+WebUI.click(findTestObject('Savings/selectCheckingSavings'))
+
+WebUI.click(findTestObject('Savings/selectAccountIndividual'))
+
+WebUI.setText(findTestObject('Savings/ingresoNombre'), 'Gio')
+
+WebUI.setText(findTestObject('Savings/ingreseDepositoInicial'), '15000')
+
+WebUI.click(findTestObject('Savings/botonNewSavings'))
+
+WebUI.closeBrowser()
 
