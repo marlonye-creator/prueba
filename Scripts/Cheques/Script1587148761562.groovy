@@ -27,5 +27,7 @@ WebUI.setText(findTestObject('Cheques/nombreConsignante'), 'Julian valero')
 
 WebUI.setText(findTestObject('Cheques/montoConsignar'), '254222')
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Cheques/botonGeneraCheque'))
 
