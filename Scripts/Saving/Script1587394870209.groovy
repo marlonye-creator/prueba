@@ -15,9 +15,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForPageLoad(0)
 
-WebUI.callTestCase(findTestCase('Cheques'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Savings/Savings'))
 
-WebUI.callTestCase(findTestCase('Saving'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Savings/newSavings'))
+
+WebUI.click(findTestObject('Savings/selectCheckingSavings'))
+
+WebUI.click(findTestObject('Savings/selectAccountIndividual'))
+
+WebUI.setText(findTestObject('Savings/ingresoNombre'), 'Gio')
+
+WebUI.setText(findTestObject('Savings/ingreseDepositoInicial'), '15000')
+
+WebUI.click(findTestObject('Savings/botonNewSavings'))
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 
