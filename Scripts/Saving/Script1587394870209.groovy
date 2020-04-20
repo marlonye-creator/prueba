@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Savings/ingresoNombre'), 'Gio')
 
 WebUI.setText(findTestObject('Savings/ingreseDepositoInicial'), '15000')
 
-WebUI.click(findTestObject('Savings/botonSubmit'))
+WebUI.delay(3)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Savings/botonSubmit'))
 
