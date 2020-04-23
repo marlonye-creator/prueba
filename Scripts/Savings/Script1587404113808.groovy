@@ -23,6 +23,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Savings/New_Savings'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Savings/selectCheckingSavings'))
 
 WebUI.click(findTestObject('Savings/selectAccountIndividual'))
