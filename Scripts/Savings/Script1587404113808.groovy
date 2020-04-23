@@ -19,17 +19,19 @@ WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('Savings/Savings'))
 
-WebUI.click(findTestObject('Savings/newSavings'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Savings/New_Savings'))
 
 WebUI.click(findTestObject('Savings/selectCheckingSavings'))
 
 WebUI.click(findTestObject('Savings/selectAccountIndividual'))
 
-WebUI.setText(findTestObject('Savings/ingresoNombre'), 'Gio')
+WebUI.setText(findTestObject('Savings/ingresoNombre'), GlobalVariable.nombre)
 
-WebUI.setText(findTestObject('Savings/ingreseDepositoInicial'), '15000')
+WebUI.setText(findTestObject('Savings/ingreseDepositoInicial'), '100')
 
-WebUI.click(findTestObject('Savings/botonNewSavings'))
+WebUI.click(findTestObject('Savings/buttonNuevoSavings'))
 
 WebUI.delay(0)
 

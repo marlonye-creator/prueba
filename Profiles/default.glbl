@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>se crea una variable de tipo global</description>
+      <initValue>'Doctor'</initValue>
+      <name>nombre</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

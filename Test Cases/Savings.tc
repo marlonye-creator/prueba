@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5e2050a1-41bd-46e8-9c15-af6077e88b5c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0c5f19d6-d532-46b3-8436-6e8432023286</id>
+      <masked>false</masked>
+      <name>selectCheck</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f217926-9f9d-47e8-a4f0-6d555c9f8933</id>
+      <masked>false</masked>
+      <name>selectAccou</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('excel')</defaultValue>
+      <description></description>
+      <id>ec372efe-3c4d-4449-9adc-917796cfa11e</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>98021562-8f6f-4020-b44d-650385b3667a</id>
+      <masked>false</masked>
+      <name>deposit</name>
+   </variable>
 </TestCaseEntity>

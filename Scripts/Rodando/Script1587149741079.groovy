@@ -19,5 +19,6 @@ WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Cheques'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Savings'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Savings'), [('selectCheck') : '', ('selectAccou') : '', ('name') : findTestData('excel')
+        , ('deposit') : ''], FailureHandling.STOP_ON_FAILURE)
 

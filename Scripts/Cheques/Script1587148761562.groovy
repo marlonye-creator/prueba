@@ -23,9 +23,9 @@ WebUI.click(findTestObject('Cheques/botonTipoCuenta'))
 
 WebUI.click(findTestObject('Cheques/botonTipoIngreso'))
 
-WebUI.setText(findTestObject('Cheques/nombreConsignante'), 'Julian valero')
+WebUI.setText(findTestObject('Cheques/nombreConsignante'), GlobalVariable.nombre)
 
-WebUI.setText(findTestObject('Cheques/montoConsignar'), '254222')
+WebUI.setText(findTestObject('Cheques/montoConsignar'), findTestData('excel').getValue(4, 1))
 
 WebUI.delay(3)
 
